@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    border: 3px solid black;
+    padding: 2px;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav img {
+    height: 40px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+nav span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    align-items: stretch;
+}
+
+.box div {
+    flex: 1;
+    border: 2px solid black;
+    padding: 0;
+}
+
+.reviews {
+    text-align: center;
+    align-items: stretch;
+    border: 3px solid black;
+}
+
+.reviews > .teacher1 {
+    border: 3px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.reviews > .teacher2 {
+    border: 3px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
