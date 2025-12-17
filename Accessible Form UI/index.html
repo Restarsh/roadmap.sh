@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="containerLeft">
+            <label for="fullName">Full Name </label><br>
+            <input type="text" name="fullName" id="fullName"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="password">Enter Password</label><br>
+            <input type="password" id="password"><br>
+            <label for="confirmPassword">Confirm Password</label><br>
+            <input type="password" name="confirmPassword" id="confirmPassword"><br>
+            <button type="submit" id="btn">Update Profile</button>
+
+        </div>
+
+        <div id="containerRight">
+            <div class="progress-container" role="img"  aria-label="Form completion: 65% complete">
+                <svg class="progress-ring" width="120" height="120">
+                <!-- Background circle -->
+                    <circle
+                    class="progress-ring__circle-bg"
+                    stroke="#e6e6e6"
+                    stroke-width="8"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                    />
+                    <!-- Progress circle -->
+                    <circle
+                    class="progress-ring__circle"
+                    stroke="#4CAF50"
+                    stroke-width="8"
+                    fill="transparent"
+                    r="52"
+                    cx="60"
+                    cy="60"
+                    stroke-dasharray="327"
+                    stroke-dashoffset="114.45" <!-- 65% complete: 327 * (1 - 0.65) -->
+                    stroke-linecap="round"
+                    />
+                </svg>
+                <div class="progress-text" aria-hidden="true">65%</div>
+            </div>
+
+            <br><label id="profileCompleteness">Profile Completeness</label>
+
+            <div id="progressLines">
+                <p>
+                    <del>Create Account</del><br>
+                    <del>Update Roadmap Progress</del><br>
+                    <del>Setup Public Profile</del><br>
+                    Complete your first project <br>
+                    Invite your Friends
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+
+#leftContainer {
+    padding-right: 50px;
+    align-items: center;
+    display: block;
+    justify-content: space-around;
+}
+
+#fullName, #email, #password, #confirmPassword {
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#containerRight {
+    padding-left: 20px;
+}
+
+.progress-container {
+
+  position:relative;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
+  padding-left: 30%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.3s ease;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+#profileCompleteness {
+    font-size: 1.5em;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#progressLines {
+    margin-top: 20px;
+    padding-left: 50px;
+    background-color: #bcbaba;
+    border-radius: 5px;
+
+}
