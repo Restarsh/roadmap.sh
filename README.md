@@ -10,6 +10,7 @@ https://roadmap.sh/projects/testimonial-cards<br>
 https://roadmap.sh/projects/datepicker-ui<br>
 https://roadmap.sh/projects/accessible-form-ui<br>
 https://roadmap.sh/projects/accessible-form-ui<br>
+https://roadmap.sh/projects/single-page-cv<br>
 
 ---
 
